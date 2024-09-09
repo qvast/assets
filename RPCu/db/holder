@@ -1,0 +1,19 @@
+[bin]
+latest=1230
+minimal=1000
+version="1.2.3"
+changes="- Added an option to prevent the screensaver from taking over\n- Added language options: Deutsch, Magyar, Nederlands\n- Increased maximum amount of recent games and descriptions from 5 to 8\n- Your global name will be displayed in the status panel in place of your username\n- The splash screen color will now match the selected UI theme\n- The default platform is now set to 'Nintendo Switch' instead of 'Wii U'\n- The default database refresh interval is now set to 'weekly'"
+dlc=""
+url="https://ninstars.itch.io/rpc/devlog/623690/version-123-new-translations"
+
+[dlc]
+sources=["https://github.com/ninstar/Rich-Presence-U-DB/raw/json/WUP/database.json","https://github.com/ninstar/Rich-Presence-U-DB/raw/json/HAC/database.json","https://github.com/ninstar/Rich-Presence-U-DB/raw/json/CTR/database.json"]
+titles="https://github.com/ninstar/Rich-Presence-U-DB/raw/main/"
+
+[url]
+home="https://ninstars.blogspot.com/rpc"
+code="https://github.com/ninstar/Rich-Presence-U"
+contact="https://ninstar.carrd.co/"
+group="https://invite.gg/ninstar"
+help="https://drive.google.com/file/d/1lLCDwvf3wQVTQ1_F6CgFAzOp6c3Vy1U8/view"
+help_pt="https://drive.google.com/file/d/1dASB3qG5jnipCbeVNusicGLN2Ud4OVmd/view"
