@@ -7,7 +7,7 @@ dlc=""
 url="https://ninstars.itch.io/rpc/devlog/623690/version-123-new-translations"
 
 [dlc]
-sources=["https://github.com/ninstar/Rich-Presence-U-DB/raw/json/WUP/database.json","https://github.com/ninstar/Rich-Presence-U-DB/raw/json/HAC/database.json","https://github.com/ninstar/Rich-Presence-U-DB/raw/json/CTR/database.json"]
+sources=["https://github.com/ninstar/Rich-Presence-U-DB/raw/json/WUP/database.json","https://github.com/vastrave/assets/raw/json/CTR/database.json","https://github.com/ninstar/Rich-Presence-U-DB/raw/json/CTR/database.json","https://raw.githubusercontent.com/vastrave/assets/main/RPCu/db/titles/ctr.csv"]
 titles="https://github.com/ninstar/Rich-Presence-U-DB/raw/main/"
 
 [url]
