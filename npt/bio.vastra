@@ -2,6 +2,11 @@
 set -eu
 set -o pipefail
 
+# why i created a function for this? dw about it
+# why i bothered setting preventive options? dw about it
+
 bio() { 
   echo " / qvastraven \\ minor (14) @ GMT-4" 
 }
+
+bio
