@@ -17,17 +17,18 @@ echo " \/"
 echo " \/"
 echo -e " i like \033[1;34mvisual novels\033[0m, horror games, documentaries,"
 echo -e " and \033[1;37mapple silicon\033[0m."
+
 echo ""
+echo " here's more of me, even tho no one asked:"
+echo " (these are only clickable on term emulators)"
+printf '\e]8;;https://vastrave.neocities.org\e\\ neocities\e]8;;\e\\\n'
+printf '\e]8;;https://guns.lol/vastra\e\\ guns.lol\e]8;;\e\\\n'
+
 echo ""
-echo " press enter when done."
-/bin/bash read -t 10101
-clear
-echo ""
-echo " [>] thanks for wasting like probably 10 seconds on this"
-echo " [>] have a good day :)"
-echo " i made this as a function for no reason. if for some reason you wanna"
-echo " see my bio again, type 'bio' while on the same session"
-echo " (it will stop working after you start another session)"
+echo "https://vastrave.neocities.org"
+echo "https://guns.lol/vastra"
+
+sleep 7.2
 echo ""
 
 }
