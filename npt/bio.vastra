@@ -20,7 +20,7 @@ echo -e " and \033[1;37mapple silicon\033[0m."
 echo ""
 echo ""
 echo " press any key when done."
-read -rsn1 -p " = "
+/bin/bash read -rsn1 -p " = " input
 clear
 echo ""
 echo " [>] thanks for wasting like probably 10 seconds on this"
