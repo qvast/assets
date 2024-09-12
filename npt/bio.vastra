@@ -17,7 +17,8 @@ echo " \/"
 echo " \/"
 echo -e " i like \033[1;34mvisual novels\033[0m, horror games, documentaries,"
 echo -e " and \033[1;37mapple silicon\033[0m."
-read
+echo " press any key when done."
+read -rsn1 -p " = "
 clear
 echo ""
 echo " [>] thanks for wasting like probably 10 seconds on this"
