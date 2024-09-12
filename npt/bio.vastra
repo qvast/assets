@@ -16,7 +16,7 @@ echo " vastra - i forgot what i was going to put here ngl"
 echo " \/"
 echo " \/"
 echo -e " i like \033[1;34mvisual novels\033[0m, horror games, documentaries,"
-echo " and \033[1;37mapple silicon\033[0m."
+echo -e " and \033[1;37mapple silicon\033[0m."
 read
 clear
 echo ""
