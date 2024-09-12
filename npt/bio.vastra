@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 set -eu
 set -o pipefail
 
@@ -31,12 +31,12 @@ echo ""
 sleep 4
 clear
                                                          echo
-  echo -e " / \033[1;34mqvastraven\033[0m \\ minor (14) @ GMT-4"
+  echo " / \033[1;34mqvastraven\033[0m \\ minor (14) @ GMT-4"
 echo " vastra - i forgot what i was going to put here ngl"
 echo " \/"
 echo " \/"
-echo -e " i like \033[1;34mvisual novels\033[0m, horror games, documentaries,"
-echo -e " and \033[1;37mapple silicon\033[0m."
+echo " i like \033[1;34mvisual novels\033[0m, horror games, documentaries,"
+echo " and \033[1;37mapple silicon\033[0m."
 
 echo ""
 echo " here's more of me, even tho no one asked:"
