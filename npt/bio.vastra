@@ -116,6 +116,7 @@ echo " [>] nixos 4 the win"
 sleep 1.4
 bio
 elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
+echo " [>] oyasumi oyasumi close your eyes and you'll leave this dream"
 sleep 1.4
 winbio
 elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
