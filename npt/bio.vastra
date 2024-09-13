@@ -7,7 +7,6 @@ set -o pipefail
 
 
 ml='~/'
-
 bio() { 
 clear
 echo ""
@@ -108,8 +107,18 @@ echo ""
 
 
 
-if [ ! -d $ml ]; then
+if [ "$(uname)" == "Darwin" ]; then
+echo " [>] i forgot my line"
+sleep 1.4
 bio
-else
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+echo " [>] nixos 4 the win"
+sleep 1.4
+bio
+elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
+winbio
+elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
+echo " [>] 32-bit windows? that's uhh.. remarkable.
+sleep 1.4
 winbio
 fi
