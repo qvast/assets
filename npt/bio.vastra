@@ -5,6 +5,9 @@ set -o pipefail
 # why i created a function for this? dw about it
 # why i bothered setting preventive options? dw about it
 
+
+ml='~/'
+
 bio() { 
 clear
 echo ""
@@ -53,4 +56,60 @@ echo ""
 
 }
 
+
+
+winbio() { 
+clear
+echo ""
+echo " [>] Loading bio.vastra.."
+sleep 1.1
+echo "
+                       <%
+            -----              _______________________________________________
+   --                  .::.
+       --           .:'  .:     bio.vastra| vastra's bio
+          ,MMM8&&&.:'   .:'     architecture: $(uname -m)
+ --%--   MMMMM88&&&&  .:'       kernel: $(uname -or)  | i wonder if its linux..
+        MMMMM88&&&&&&:'         too lazy to code me the answer.
+        MMMMM88&&&&&&           workspace: vastra's haven ♪
+      .:MMMMM88&&&&&&           hey: how's your day today?
+    .:'  MMMMM88&&&&            _______________________________________________
+  .:'   .:'MMM8&&&'           
+  :'  .:'       --
+  '::'               ---|---
+       @--                                                  
+"
+  
+echo ""
+sleep 4
+clear
+                                                         echo
+  echo " / qvastraven \\ minor (14) @ GMT-4"
+echo " vastra - i forgot what i was going to put here ngl"
+echo " \/"
+echo " \/"
+echo " i like visual novels, horror games, documentaries,"
+echo " and apple silicon."
+
+echo ""
+echo " here's more of me, even tho no one asked:"
+echo " (these are only clickable on some term emulators)"
+printf '\e]8;;https://vastrave.neocities.org\e\\ neocities\e]8;;\e\\\n'
+printf '\e]8;;https://guns.lol/vastra\e\\ guns.lol\e]8;;\e\\\n'
+
+echo ""
+echo " https://vastrave.neocities.org"
+echo " https://guns.lol/vastra"
+
+sleep 7
+echo ""
+
+}
+
+
+
+if [ ! -d $ml ]; then
 bio
+else
+winbio
+fi
