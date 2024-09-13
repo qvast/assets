@@ -66,7 +66,7 @@ echo "
                        <%
             -----              _______________________________________________
    --                  .::.
-       --           .:'  .:     bio.vastra| vastra's bio
+       --           .:'  .:     bio.vastra | vastra's bio
           ,MMM8&&&.:'   .:'     architecture: $(uname -m)
  --%--   MMMMM88&&&&  .:'       kernel: $(uname -or)  | i wonder if its linux..
         MMMMM88&&&&&&:'         too lazy to code me the answer.
