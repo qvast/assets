@@ -118,7 +118,7 @@ bio
 elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
 winbio
 elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
-echo " [>] 32-bit windows? that's uhh.. remarkable.
+echo " [>] 32-bit windows? that's uhh.. remarkable."
 sleep 1.4
 winbio
 fi
